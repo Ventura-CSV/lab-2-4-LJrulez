@@ -4,8 +4,8 @@ def main():
     ##################################################
     pass
 original_str= "Python Programming"
-sub1= original_str [: -12] # extract the first substring 'Python'
-sub2= (original_str.split()[1]) # extract the second substring 'Programming'
+sub1= original_str [: -12] 
+sub2= (original_str.split()[1]) 
 merge_str = sub2 + sub1
 
 print (sub2)
